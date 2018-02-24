@@ -10,7 +10,6 @@ var handlebars = require('express3-handlebars')
 //var bodyParser = require('body-parser');
 var mongodb = require('mongodb');
 var ObjectID = mongodb.ObjectID;
-
 var db;
 
 var index = require('./routes/index');

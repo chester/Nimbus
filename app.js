@@ -20,10 +20,11 @@ var progress = require('./routes/progress');
 var affirmations = require('./routes/affirmations');
 var checkin = require('./routes/checkin');
 var selectReflect = require('./routes/selectReflect');
-var evaluateReflect = require('./routes/evaluateReflect')
+var evaluateReflect = require('./routes/evaluateReflect');
 var stepsReflect = require('./routes/stepsReflect');
-var affirmationEdit = require('./routes/affirmationedit')
-var login = require('./routes/login')
+var affirmationEdit = require('./routes/affirmationedit');
+var login = require('./routes/login');
+var welcome = require('./routes/welcome');
 
 var app = express();
 //app.use(bodyParser.json);
@@ -62,7 +63,7 @@ app.get('/evaluateReflect', evaluateReflect.viewEvaluateReflect);
 app.get('/stepsReflect', stepsReflect.viewStepsReflect);
 app.get('/affirmationEdit', affirmationEdit.viewEditAffirmations);
 app.get('/login', login.viewLogin);
-
+app.get('/welcome', welcome.viewWelcome);
 app.get('/progress', function(req, res) {
   db.collection("stepsData").findOne({}, function(err, result) {
     if(err) throw err;

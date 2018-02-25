@@ -1,19 +1,19 @@
-h1{
+#name {
 	margin-left:35%;
-	font-size:15px;
+	font-size:10px;
 	font-family:verdana;
-	margin-top:-20%;
+	margin-top:5%;
 	color:white;
 	font-weight:lighter;
 }
 
-img {
+.logo {
 	margin-top:15%;
-	margin-left:15%;
+	margin-left:30%;
 }
 
 #username {
-	margin-top:30%;
+	margin-top:20%;
 	margin-left:6%;
 	width: 80%;
     padding: 12px 20px;

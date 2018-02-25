@@ -18,8 +18,10 @@ img {
 	width: 80%;
     padding: 12px 20px;
     display: inline-block;
-    border: 2px solid #3EBDCF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
+    background: none;
+    font-size: 20px;
 }
 #password{
 	margin-top:5%;
@@ -27,8 +29,13 @@ img {
 	width: 80%;
     padding: 12px 20px;
     display: inline-block;
-    border: 2px solid #3EBDCF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
+    background: none;
+    font-size: 20px;
+}
+input::placeholder {
+	color: white;
 }
 
 #log{
@@ -69,4 +76,9 @@ img {
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("https://i.imgur.com/K5f3KiD.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 

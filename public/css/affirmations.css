@@ -1,11 +1,8 @@
-body{
 
-
-}
 h1 {
     text-align: center;
     font-family:verdana;
-    color:#3EBDCF;
+    color:#FFFFFF;
 }
 h3 {
     text-align: center;
@@ -129,17 +126,21 @@ input[type=submit] {
     max-height:100%;
     margin:auto;
 }
-.homebutton{
-    margin-left:8%;
-}
 
-#home {
-    width:175%;
-}
 
 #title {
     font-size: 30px;
     text-align: center;
     font-family:verdana;
-    color:#3EBDCF;
+    color:#FFFFFF;
+}
+
+body {
+    background-color: #323E49;
+}
+
+.backBtn button {
+    background-color: white;
+    width: 10%;
+    font-size: 20px;
 }

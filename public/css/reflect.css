@@ -1,17 +1,12 @@
 
 #title {
     text-align: center;
-    color: #3EBDCF;
+    color: #FFFFFF;
     margin-bottom:10%;
     font-family:verdana;
-}
-
-
-h3 {
     font-size: 45px;
-    font-family:verdana;
-
 }
+
 
 #userInput {
     text-align: center;
@@ -21,19 +16,18 @@ h3 {
 #continueDiv {
     position: relative;
     float: right;
-    top: 10%;
+    margin-top: 45%;
 }
 
 #continueDiv button {
     font-size: 45px;
     height:7%;
-    width:115%;
+    width:100%;
     border-radius:10%;
     background-color: #3EBDCF;
     color: white;
-    margin-right:15%;
+    margin-right:10%; 
 }
-
 
 #imgDiv {
     position: relative;
@@ -43,7 +37,6 @@ h3 {
     top: 0;
     z-index: -1;
 }
-
 
 #imgDiv img {
     display: block;
@@ -133,4 +126,12 @@ ul {
 
 body {
     background-color: #323E49;
+}
+
+.statusDiv {
+    margin-top: 65%;
+    margin-left: 42%;
+}
+#status {
+    width: 35%;
 }

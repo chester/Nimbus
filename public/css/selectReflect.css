@@ -2,18 +2,15 @@
 #title {
     text-align: center;
     font-family:verdana;
-    color: #3EBDCF;
+    color: #FFFFFF;
     margin-bottom:10%;
-}
-
-h3 {
     font-size: 45px;
-    font-family: verdana;
 }
 
 #continueDiv { 
 float:right;  
 margin-right:6%;
+margin-top: 45%;
 }
 
 #continueDiv button {
@@ -30,6 +27,7 @@ margin-right:6%;
 .backButton {
     float:left;
     margin-left:4%;
+    margin-top: 45%;
 }
 #back {
     font-size: 45px;
@@ -90,4 +88,16 @@ ul {
 
 .crossout {
     text-decoration: line-through red;
+}
+
+body {
+    background-color: #323E49;
+}
+
+.statusDiv {
+    margin-top: 65%;
+    margin-left: 42%;
+}
+#status {
+    width: 35%;
 }

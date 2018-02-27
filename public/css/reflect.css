@@ -9,17 +9,18 @@
 
 
 #userInput {
+    margin-top: 15%;
+    margin-left: 5%;
     text-align: center;
     position: relative;
 }
 
 #continueDiv {
-    position: relative;
-    float: right;
-    margin-top: 45%;
+    margin-top: 55%;
+    margin-left: 85%;
 }
 
-#continueDiv button {
+/*#continueDiv button {
     font-size: 45px;
     height:7%;
     width:100%;
@@ -27,6 +28,10 @@
     background-color: #3EBDCF;
     color: white;
     margin-right:10%; 
+}*/
+
+#continueBtn {
+    width: 300%;
 }
 
 #imgDiv {
@@ -83,12 +88,12 @@ input {
     width: 10%;
     float: left;
     font-size: 70px;
-    background-color: #3EBDCF;
+    background-color: #FFFFFF;
     height: 5%;
     font-family:verdana;
     text-align: center;
     border-radius:15%;
-    color: white;
+    color: #24DE9E;
     margin-left: 5%;
 }
 
@@ -129,7 +134,7 @@ body {
 }
 
 .statusDiv {
-    margin-top: 65%;
+    margin-top: -5%;
     margin-left: 42%;
 }
 #status {

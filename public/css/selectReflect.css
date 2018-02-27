@@ -9,11 +9,11 @@
 
 #continueDiv { 
 float:right;  
-margin-right:6%;
-margin-top: 45%;
+margin-right:10%;
+margin-top: 55%;
 }
 
-#continueDiv button {
+/*#continueDiv button {
     font-size: 45px;
     background-color:#3EBDCF;
     color:white;
@@ -21,15 +21,17 @@ margin-top: 45%;
     height:5%;
     border-radius:15%;
     border:white;
-
+}*/
+#continueBtn {
+    width: 300%;
 }
 
-.backButton {
+.backDiv {
     float:left;
     margin-left:4%;
-    margin-top: 45%;
+    margin-top: 55%;
 }
-#back {
+/*#back {
     font-size: 45px;
     background-color:#3EBDCF;
     color:white;
@@ -37,6 +39,9 @@ margin-top: 45%;
     height:5%;
     border-radius:15%;
     border:white;
+}*/
+#backBtn {
+    width: 300%;
 }
 
 #imgDiv {
@@ -95,7 +100,7 @@ body {
 }
 
 .statusDiv {
-    margin-top: 65%;
+    margin-top: 60%;
     margin-left: 42%;
 }
 #status {

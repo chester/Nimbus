@@ -6,6 +6,45 @@ $(document).ready(function() {
 
 function initializePage() {
     console.log("Javascript for Reflect Connected");
+    var items = sessionStorage.getItem('affirmationsList');
+    var parsedItems = JSON.parse(items);
+    var i;
+    for( i = 0; i < parsedItems.length; i++) {
+        var li = document.createElement("li");
+        var newItemVal = parsedItems[i];
+        var textObj = document.createTextNode(newItemVal);
+        li.appendChild(textObj);
+        document.getElementById("UList").appendChild(li);
+
+        // add x button
+        var span = document.createElement("SPAN");
+        var icon = document.createTextNode("\u00D7");
+        span.className = "closeButton";
+        span.appendChild(icon);
+        li.appendChild(span);
+        span.onclick = function() {
+            var div = this.parentElement;
+            div.remove();
+        }
+    }
+    if( parsedItems.length == 0 ) {
+        var li = document.createElement("li");
+        var newItemVal = "I believe in you";
+        var textObj = document.createTextNode(newItemVal);
+        li.appendChild(textObj);
+        document.getElementById("UList").appendChild(li);
+
+        // add x button
+        var span = document.createElement("SPAN");
+        var icon = document.createTextNode("\u00D7");
+        span.className = "closeButton";
+        span.appendChild(icon);
+        li.appendChild(span);
+        span.onclick = function() {
+            var div = this.parentElement;
+            div.remove();
+        }
+    }
 }
 
 function nextPage() {
@@ -18,7 +57,7 @@ function nextPage() {
    // console.log(testArray);
     console.log(itemsArray.length);
 
-    sessionStorage.setItem('reflectionItems', JSON.stringify(itemsArray));
+    sessionStorage.setItem('affirmationsList', JSON.stringify(itemsArray));
    // $.get('/selectReflect');
 
 }
@@ -41,7 +80,8 @@ var i;
 for ( i = 0; i < close.length; i++) {
     close[i].onclick = function() {
         var div = this.parentElement;
-        div.style.display = "none";
+        //div.style.display = "none";
+        div.remove();
         console.log("CLOSEE");
     }
 }
@@ -69,7 +109,8 @@ function addList() {
     for( i = 0; i < close.length; i++ ) {
         close[i].onclick = function() {
             var div = this.parentElement;
-            div.style.display = "none";
+            //div.style.display = "none";
+            div.remove();
         }
     }
 }

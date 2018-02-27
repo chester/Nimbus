@@ -12,11 +12,18 @@ function initializePage() {
 		//document.getElementById("affirmations").innerHTML = affirmations[0];
 
 	function getRandom() {
-		var affirmations = ['Strive For Greatness', 'I feel good today', 'I got this'];
+		var affirmations = JSON.parse(sessionStorage.getItem("affirmationsList"));
+		//console.log(affirmations);
+		//console.log(sessinStorage.getItem('affirmationsList'));
+	
+		//var affirmations = ['Strive For Greatness', 'I feel good today', 'I got this'];
 		var randomNumber = Math.floor(Math.random()*affirmations.length);	
 		//console.log(randomNumber);
 		var randomString = affirmations[randomNumber];
-		//console.log(randomString);
+			//console.log(randomString);
+		if( randomString == undefined) {
+			randomString = "I believe in you";
+		}
 		document.getElementById("affirmations").innerHTML = randomString;
 	}
 

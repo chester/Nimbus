@@ -17,15 +17,19 @@ function initializePage() {
 function nextPage() {
     var evaluateQuestions = [];
     //alert(document.getElementById("q1").value);
-    evaluateQuestions.push(document.getElementById("q1").value)
-    evaluateQuestions.push(document.getElementById("q2").value)
-    evaluateQuestions.push(document.getElementById("q3").value)
+    evaluateQuestions.push(document.getElementById("q1").value);
+    evaluateQuestions.push(document.getElementById("q2").value);
+    evaluateQuestions.push(document.getElementById("q3").value);
+    evaluateQuestions.push(document.getElementById("q4").value);
+
 
     sessionStorage.setItem('evaluateQuestions', JSON.stringify(evaluateQuestions));
-      if (window.performance) {
-    var timeSincePageLoad = Math.round(performance.now());
-    ga('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
-}
+    console.log(window.performance.now());
+    if (window.performance) {
+        var timeSincePageLoad = Math.round(performance.now());
+        console.log("Time since page load: " + timeSincePageLoad);
+        ga('send', 'timing', 'Page Time', 'time', timeSincePageLoad);
+    }
     
 }
 
@@ -34,6 +38,7 @@ function loadData() {
     document.getElementById("q1").value = data['0'];
     document.getElementById("q2").value = data['1'];
     document.getElementById("q3").value = data['2'];
+    document.getElementById("q4").value = data['3'];
     //console.log(data['0']);
 
 }

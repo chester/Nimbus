@@ -63,5 +63,6 @@ function lastQuestion(event) {
 
     if (window.performance) {
   var timeSincePageLoad = Math.round(performance.now());
-  ga('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
+  gtag('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
+}
 

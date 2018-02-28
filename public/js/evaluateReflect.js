@@ -29,8 +29,16 @@ function nextPage() {
     if (window.performance) {
         var timeSincePageLoad = Math.round(performance.now());
         console.log("Time since page load: " + timeSincePageLoad);
-        gtag('send', 'timing', 'Page Time', 'time', timeSincePageLoad);
-      }
+        ga('send', 'timing', 'Page Time', 'time', timeSincePageLoad);
+
+        // Try sending an event with a value, value=timeSincePageLoad
+        //Category = next, action = click 
+        ga('send', 'event', {
+            'eventCategory': 'next',
+            'eventAction': 'click',
+            'eventValue': timeSincePageLoad
+        });
+    }
     
 }
 

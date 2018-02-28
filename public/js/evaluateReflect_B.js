@@ -32,3 +32,6 @@ function loadData() {
     document.getElementById("q3").value = data['2'];
     //console.log(data['0']);
 }
+
+document.getElementById("q2").style.visibility = "hidden";
+document.getElementById("q3").style.visibility = "hidden";

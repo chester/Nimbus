@@ -1,0 +1,73 @@
+
+#title {
+    text-align: center;
+    font-family:verdana;
+    color: #FFFFFF;
+    margin-bottom:10%;
+}
+
+#focus {
+    color: black;
+}
+#continueDiv {
+    float: right;
+}
+
+#q1, #q2, #q3 {
+    height: 10%;
+    width: 90%;
+    margin: 8px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid #3EBDCF;
+    box-sizing: border-box;
+}
+
+#hideQ2 {
+    display:none;
+}
+
+#nextQ {
+    margin-left:70%;
+    margin-top:4%;
+}
+
+.backButton {
+    float:left;
+    margin-left:3%;
+}
+#back {
+    font-size: 15px;
+    background-color:#3EBDCF;
+    color:white;
+    width:135%;
+    height:5%;
+    border-radius:15%;
+    border:white;
+}
+
+.saveButton {
+    float:left;
+    margin-left:58%;
+}
+#save {
+    font-size: 15px;
+    background-color:#3EBDCF;
+    color:white;
+    width:135%;
+    height:5%;
+    border-radius:15%;
+    border:white;
+}
+
+body {
+    background-color: #323E49;
+}
+
+.statusDiv {
+    margin-top: 75%;
+    margin-left: 42%;
+}
+#status {
+    width: 35%;
+}

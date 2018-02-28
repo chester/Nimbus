@@ -21,9 +21,11 @@ var affirmations = require('./routes/affirmations');
 var checkin = require('./routes/checkin');
 var selectReflect = require('./routes/selectReflect');
 var evaluateReflect = require('./routes/evaluateReflect');
+var evaluateReflect_B = require('./routes/evaluateReflect_B');
 var stepsReflect = require('./routes/stepsReflect');
 var affirmationEdit = require('./routes/affirmationedit');
 var welcome = require('./routes/welcome');
+
 
 var app = express();
 //app.use(bodyParser.json);
@@ -59,6 +61,7 @@ app.get('/affirmations', affirmations.viewAffirmations);
 app.get('/checkin/:step/:idx', checkin.viewCheckin);
 app.get('/selectReflect', selectReflect.viewSelectReflect);
 app.get('/evaluateReflect', evaluateReflect.viewEvaluateReflect);
+app.get('/evaluateReflect_B', evaluateReflect_B.viewEvaluateReflect_B);
 app.get('/stepsReflect', stepsReflect.viewStepsReflect);
 app.get('/affirmationEdit', affirmationEdit.viewEditAffirmations);
 app.get('/welcome', welcome.viewWelcome);

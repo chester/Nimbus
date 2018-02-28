@@ -59,3 +59,10 @@ function lastQuestion(event) {
     $(this).hide();
     $("#save").css('display', 'block');
 }
+
+function sendToAnalytic(event) {
+    event.preventDefault();
+    console.log("clicked the button");
+    ga('create', 'UA-114902003-1', 'auto');
+    ga("send", "event", 'clickQuestion', 'click');
+}

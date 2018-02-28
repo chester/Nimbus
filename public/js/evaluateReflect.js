@@ -32,3 +32,10 @@ function loadData() {
     document.getElementById("q3").value = data['2'];
     //console.log(data['0']);
 }
+
+function sendToAnalytic(event) {
+    event.preventDefault();
+    console.log("clicked the button");
+    ga('create', 'UA-114902003-1', 'auto');
+    ga("send", "event", 'clickQuestion', 'click');
+}

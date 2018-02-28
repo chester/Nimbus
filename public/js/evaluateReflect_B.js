@@ -22,6 +22,10 @@ function nextPage() {
     evaluateQuestions.push(document.getElementById("q3").value)
 
     sessionStorage.setItem('evaluateQuestions', JSON.stringify(evaluateQuestions));
+      if (window.performance) {
+    var timeSincePageLoad = Math.round(performance.now());
+    ga('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
+}
     
 }
 
@@ -31,6 +35,7 @@ function loadData() {
     document.getElementById("q2").value = data['1'];
     document.getElementById("q3").value = data['2'];
     //console.log(data['0']);
+
 }
 
 //document.getElementById("q2").style.visibility = "hidden";
@@ -61,8 +66,5 @@ function lastQuestion(event) {
 }
 
 
-    if (window.performance) {
-  var timeSincePageLoad = Math.round(performance.now());
-  gtag('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
-}
+  
 

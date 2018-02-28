@@ -33,5 +33,29 @@ function loadData() {
     //console.log(data['0']);
 }
 
-document.getElementById("q2").style.visibility = "hidden";
-document.getElementById("q3").style.visibility = "hidden";
+//document.getElementById("q2").style.visibility = "hidden";
+//document.getElementById("q3").style.visibility = "hidden";
+
+$("#next").click(nextQuestion);
+function nextQuestion(event) {
+    $("#q1").hide();
+    $("#q2").css('display', 'block');
+    $(this).hide();
+    $("#next2").css('display', 'block');
+}
+
+$("#next2").click(nextQuestion2);
+function nextQuestion2(event) {
+    $("#q2").hide();
+    $("#q3").css('display', 'block');
+    $(this).hide();
+    $("#last").css('display', 'block');
+}
+
+$("#last").click(lastQuestion);
+function lastQuestion(event) {
+    $("#q3").hide();
+    $("#q4").css('display', 'block');
+    $(this).hide();
+    $("#save").css('display', 'block');
+}

@@ -36,6 +36,6 @@ function loadData() {
 function sendToAnalytic(event) {
     event.preventDefault();
     console.log("clicked the button");
-    ga('create', 'UA-114902003-1', 'auto');
+    ga('create', 'UA-114936723-1', 'auto');
     ga("send", "event", 'clickQuestion', 'click');
 }

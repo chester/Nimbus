@@ -33,9 +33,7 @@ function loadData() {
     //console.log(data['0']);
 }
 
-function sendToAnalytic(event) {
-    event.preventDefault();
-    console.log("clicked the button");
-    ga('create', 'UA-114936723-1', 'auto');
-    ga("send", "event", 'clickQuestion', 'click');
+  if (window.performance) {
+  var timeSincePageLoad = Math.round(performance.now());
+  ga('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
 }

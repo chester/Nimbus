@@ -69,7 +69,7 @@ ol {
 
 /* Set a background color */
 body {
-  background-color: #ffece5;
+  background-color: #323E49;
   font-family: Helvetica, sans-serif;
 }
 
@@ -196,4 +196,27 @@ body {
   .right {
     left: 0%;
   }
+}
+
+.focus {
+  color:white;
+}
+
+#affirm, #edit {
+    font-size: 15px;
+    background-color:#24DE9E;
+    color:white;
+    height:5%;
+    border-radius:8px;
+    border:white;
+    width:100%;
+}
+
+.editBtn {
+  
+  margin-top: 5%;
+}
+
+.affirmBtn {
+  margin-top:5%;
 }

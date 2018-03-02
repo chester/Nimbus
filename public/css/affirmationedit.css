@@ -6,6 +6,9 @@
 
 #uList li {
     padding: 2%;
+    color:white;
+    font-size: 20px;
+    font-family:verdana;
 }
 
 .closeButton {
@@ -23,11 +26,11 @@
 
 .addButton {
     font-size: 30px;
-    background-color: #3EBDCF;
+    background-color: #FFFFFF;
     font-family:verdana;
     text-align: center;
     border-radius:15%;
-    color: white;
+    color: #24DE9E;
     margin-left: 5%;
 }
 
@@ -46,11 +49,11 @@
 #done {
     margin-top: 50%;
     font-size: 15px;
-    background-color:#3EBDCF;
+    background-color:#24DE9E;
     color:white;
     width:135%;
     height:5%;
-    border-radius:15%;
+    border-radius:8px;
     border:white;
 }
 
@@ -58,5 +61,9 @@
 #title {
     text-align: center;
     font-family:verdana;
-    color:#3EBDCF;
+    color:#FFFFFF;
+}
+
+body {
+    background-color: #323E49;
 }

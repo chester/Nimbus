@@ -2,18 +2,18 @@
 #title {
     text-align: center;
     font-family:verdana;
-    color:#3EBDCF;
+    color:#FFFFFF;
 }
 
 #myInput {
 	width: 60%;
-	border: 1px solid #3EBDCF;
+	border: 1px solid #FFFFFF;
 	box-sizing: border-box;
 }
 
 #uList li {
     padding: 2%;
-    color:#3EBDCF;
+    color:#FFFFFF;
     font-family:verdana;
 }
 
@@ -34,30 +34,25 @@
 
 .backButton {
     float:left;
-    top:2%;
-    position: relative;
+    margin-top: 115%;
 
 }
-#back {
-    font-size: 15px;
-    background-color:#3EBDCF;
-    color:white;
-    height:5%;
-    border-radius:15%;
-    border:white;
+#backBtn {
+    width: 150%;
 }
 
 .progressButton {
     float:right;
     top:2%;
     position: relative;
+    margin-top:115%;
 }
 #progress {
     font-size: 15px;
-    background-color:#3EBDCF;
+    background-color:#24DE9E;
     color:white;
     height:5%;
-    border-radius:15%;
+    border-radius:8px;
     border:white;
 }
 
@@ -85,10 +80,14 @@
 
 .addButton {
     font-size: 30px;
-    background-color: #3EBDCF;
+    background-color: #FFFFFF;
     font-family:verdana;
     text-align: center;
     border-radius:15%;
-    color: white;
+    color: #24DE9E;
     margin-left: 5%;
+}
+
+body {
+    background-color: #323E49;
 }

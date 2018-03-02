@@ -57,7 +57,7 @@ h4{
 
 #rollButton {
     position: relative;
-    background-color: #3EBDCF;
+    background-color:#24DE9E;
     border: none;
     color: white;
     position: relative;
@@ -70,8 +70,8 @@ h4{
     font-weight:bold;
     cursor: pointer;
     margin-left:30%;
-    margin-top:60%;
-    border-radius:10%;
+    margin-top:70%;
+    border-radius:8px;
 
 }
 
@@ -139,8 +139,6 @@ body {
     background-color: #323E49;
 }
 
-.backBtn button {
-    background-color: white;
-    width: 10%;
-    font-size: 20px;
+#backBtn {
+    width: 300%;
 }

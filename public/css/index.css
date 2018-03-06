@@ -12,15 +12,15 @@
 	margin-top:15%;
 	margin-left:30%;
 }*/
-
-body {
+html {
     background-image: url("https://i.imgur.com/bB6ERWc.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    height:130%;
 }
 .username {
-	margin-top: 85%;
+	margin-top: 95%;
 	margin-left: 10%;
 	width: 80%;
     display: inline-block;

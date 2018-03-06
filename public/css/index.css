@@ -12,15 +12,14 @@
 	margin-top:15%;
 	margin-left:30%;
 }*/
-html {
+body {
     background-image: url("https://i.imgur.com/bB6ERWc.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    height:130%;
 }
 .username {
-	margin-top: 95%;
+	margin-top: 100%;
 	margin-left: 10%;
 	width: 80%;
     display: inline-block;
@@ -72,12 +71,10 @@ input {
 }
 .loginButton {
 	width: 25%;
-	height:5%;
+	height:4%;
     background-color:#FFFFFF;
-    padding: 5px 5px;
     margin-top:10%;
-	margin-left:34%;
-    border: none;
+	margin-left:38%;
     cursor: pointer;
     font-family:verdana;
     font-weight:bold;
@@ -86,18 +83,21 @@ input {
 
 .facebookLogin {
 	margin-left:40%;
-	margin-top:-65%;
+	margin-top:5%;
 	border-radius: 8px;
 }
 
 
+.continueDiv {
+	margin-top:10%;
+	margin-left:40%;
+	width: 20%;
+}
 #continue {
 	display: none;
-	width: 20%;
-	margin-top:5%;
-	margin-left:40%;
 	font-family:verdana;
     font-weight:bold;
+    font-size:15px;
 	background-color:#FFFFFF;
 	padding: 5px 5px;
 	border-radius: 8px;
@@ -106,6 +106,4 @@ input {
 #photo {
 	width:60%;
 	margin-left:20%;
-	margin-top:75%;
-
 }

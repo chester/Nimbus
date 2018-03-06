@@ -24,6 +24,7 @@ function changeUser(response) {
   $(".password").hide();
   $(".loginButton").hide();
   $("#continue").css('display', 'block');
+  $("#photo").css('margin-top', '85%');
   $("h1.fbName").text(response.name);
   $("#photo").attr("src",response.picture.data.url);
 }

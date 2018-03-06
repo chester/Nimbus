@@ -10,7 +10,6 @@
 
 
 <body>
-    <div class = "bgImage">
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -40,6 +39,9 @@
             <fb:login-button size = "large" class="fb" scope="public_profile,email" onlogin="checkLoginState();">
             </fb:login-button>
         </p>
+    </div>
+    
+    <div class="continueDiv">
         <a href="/welcome">
             <button id="continue">Continue</button>
         </a>
@@ -49,7 +51,6 @@
     <script src="/js/bootstrap.min.js"></script>
     {{> facebook}}
     <script src="/js/facebook.js"></script>
-</div>
 </body>
 
 </html>

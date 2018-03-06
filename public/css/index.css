@@ -12,6 +12,13 @@
 	margin-top:15%;
 	margin-left:30%;
 }*/
+
+body {
+    background-image: url("https://i.imgur.com/bB6ERWc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
 .username {
 	margin-top: 85%;
 	margin-left: 10%;
@@ -52,11 +59,6 @@ input {
 	font-size: 20px;
 }
 
-body {
-    background-image: url("https://i.imgur.com/bB6ERWc.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #log{
 	color: none;
@@ -105,4 +107,5 @@ body {
 	width:60%;
 	margin-left:20%;
 	margin-top:75%;
+
 }

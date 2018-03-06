@@ -2,12 +2,12 @@
 #title {
     text-align: center;
     font-family:verdana;
-    color: #FFFFFF;
+    color: black;
     margin-bottom:10%;
 }
 
 #focus {
-    color: black;
+    color: white;
 }
 #continueDiv {
     float: right;

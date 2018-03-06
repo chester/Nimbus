@@ -1,38 +1,51 @@
 body {
-	background-color: #F2F9FF;
+	background-color:  #323E49;
 }
 
+
 .btnDiv {
-	border-radius: 8px;
-	background-color: #24DE9E;
+	border-radius: 20px;
+	background-color: white;
 	margin-top: 30%;
+	width:50%;
+	height: 8%;
+	margin-left:25%;
+	margin-bottom:10%;
 }
 
 .title {
 	text-align: center;
 	margin-top: 10%;
 	font-family:Helvetica;
+	color:white;
 }
 
 .why {
 	margin-top: 10%;
 	text-align: center;
 	font-family:Helvetica;
+	color:white;
 }
 
 #btn {
-	font-family: verdana;
+	font-family: Helvetica;
+	margin-top:7%;
 	font-weight:bold;
-	font-size:15px;
+	font-size:20px;
 	text-align:center;
 	padding-left:10px;
 	width:100%;
+	color: #323E49;
 }
 
 #subparagraphs {
 	text-align:center;
 	font-family:Helvetica;
-	color:#4d4d4d;
+	color:white;
 }
 
+#icon {
+	margin-bottom:-7%;
+	margin-left:30%;
+}
 

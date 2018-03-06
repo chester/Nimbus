@@ -10,7 +10,7 @@
 
 
 <body>
-
+    <div class = "bgImage">
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -19,7 +19,6 @@
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=950520648447621&autoLogAppEvents=1';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
 
     <div class="username">
         <input id="user" type="text" placeholder=" Username">
@@ -38,7 +37,7 @@
     <div class="fbLogin">
         <img id="photo" class='img-responsive'/>
         <p class="facebookLogin">
-            <fb:login-button class="fb" scope="public_profile,email" onlogin="checkLoginState();">
+            <fb:login-button size = "large" class="fb" scope="public_profile,email" onlogin="checkLoginState();">
             </fb:login-button>
         </p>
         <a href="/welcome">
@@ -50,6 +49,7 @@
     <script src="/js/bootstrap.min.js"></script>
     {{> facebook}}
     <script src="/js/facebook.js"></script>
+</div>
 </body>
 
 </html>

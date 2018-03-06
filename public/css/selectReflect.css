@@ -1,3 +1,12 @@
+body {
+    background-color: #323E49;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 #title {
     text-align: center;
@@ -85,19 +94,11 @@ margin-top: 55%;
 }
 
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 
 .crossout {
     text-decoration: line-through red;
 }
 
-body {
-    background-color: #323E49;
-}
 
 .statusDiv {
     margin-top: 60%;

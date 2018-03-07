@@ -21,6 +21,28 @@ function initializePage() {
     //jsonData.topic = topicText;
     jsonData.progress = progress;
     //console.log(jsonData);
+
+    var steps = sessionStorage.getItem('stepsList');
+    var parsedSteps = JSON.parse(steps);
+    var i;
+    for( i = 0; i < parsedSteps.length; i++) {
+        var li = document.createElement("li");
+        var newItemVal = parsedSteps[i];
+        var textObj = document.createTextNode(newItemVal);
+        li.appendChild(textObj);
+        document.getElementById("UList").appendChild(li);
+
+        // add x button 
+        var span = document.createElement("SPAN");
+        var icon = document.createTextNode("\u00D7");
+        span.className = "closeButton";
+        span.appendChild(icon);
+        li.appendChild(span);
+        span.onclick = function() {
+            var div = this.parentElement;
+            div.remove();
+        }
+    }
 }
 
 function nextPage() {
@@ -36,6 +58,8 @@ function nextPage() {
     for( i = 0; i < testArray.length; i++) {
         itemsArray.push(testArray[i].childNodes['0'].data);
     }
+
+    sessionStorage.setItem('stepsList', JSON.stringify(itemsArray));
 
 
     // Create json object for each step

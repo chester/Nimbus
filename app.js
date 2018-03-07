@@ -86,6 +86,29 @@ app.get('/progress', function(req, res) {
   });
 });
 
+app.get('/progressAlt', function(req, res) {
+  db.collection("stepsData").findOne({}, function(err, result) {
+    if(err) throw err;
+    //console.log(result['topic']);
+    //console.log(result['progress']);
+
+    res.render('progress', {
+      "topic": result['topic'],
+      "progress_data":result['progress'],
+      "versionb":true,
+      helpers: {
+        ifEquals: function(arg) {
+          if( arg == "true") {
+          return true;
+          }
+          return false;
+        }
+      }
+    });
+  });
+});
+
+
 app.post('/progress/setSteps', function(req, res) {
   //console.log(req.body);
   db.collection("stepsData").remove({});

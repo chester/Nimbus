@@ -210,6 +210,7 @@ body {
     border-radius:8px;
     border:white;
     width:100%;
+    font-family: verdana;
 }
 
 .editBtn {
@@ -219,4 +220,46 @@ body {
 
 .affirmBtn {
   margin-top:5%;
+}
+
+#affirmB {
+  font-size: 15px;
+    background-color:#24DE9E;
+    color:white;
+    height:5%;
+    border-radius:8px;
+    border:white;
+    width:100%;
+    font-family: verdana;
+    font-weight: bold;
+}
+.affirmBtnB {
+  margin-top:5%;
+}
+#editB {
+  font-size: 12px;
+    background-color:#FFFFFF;
+    color:black;
+    height:5%;
+    border-radius:8px;
+    border:white;
+    font-family: verdana;
+    font-weight: bold;
+}
+.editBtnB {
+  margin-top: 3%;
+}
+
+#message {
+  font-family: verdana;
+  font-weight: bold;
+  color: white;
+  text-align:center;
+  margin-top: 30%;
+}
+#submessage {
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  font-size: 11px;
 }

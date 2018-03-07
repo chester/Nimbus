@@ -30,6 +30,20 @@
         {{/each}}
     </div>
 
+    {{#if versionb}}
+    <div class="editBtnB">
+        <a href="/stepsReflect">
+            <button id="editB">Edit Steps</button>
+        </a>
+    </div>
+    <h3 id="message">Feeling Flustered?</h3>
+    <div class="affirmBtnB">
+        <a href="/affirmations">
+            <button id="affirmB">Write Myself Self-Affirmations</button>
+        </a>
+    </div>
+    <p id="submessage">Affirmations help improve performance and promote positivity</p>
+    {{else}}
     <div class="editBtn">
         <a href="/stepsReflect">
             <button id="edit">Edit Steps</button>
@@ -40,6 +54,7 @@
             <button id="affirm">Self-Affirmations</button>
         </a>
     </div>
+    {{/if}}
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.js"></script>

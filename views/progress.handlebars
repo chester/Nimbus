@@ -17,7 +17,7 @@
                 <h2>{{stepName}}</h2>
                 <p>{{feelingData}}</p>
                 {{#if (ifEquals finished)}}
-                    <a href="/checkin/{{stepName}}">
+                    <a href="/checkin/{{stepName}}/{{@index}}">
                     <button id=checkinButton>View</button>
                     </a>
                 {{else}}

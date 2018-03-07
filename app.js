@@ -145,7 +145,23 @@ app.post('/progress/updateFeel', function(req, res) {
       
         updateVal
         //"progress.0.feelingData": req.body.feelData
-    })
+    }
+  )
+
+  var str = "progress." + req.body.stepNum + ".finished";  
+
+  var updateVal = {};
+  updateVal[str] = "true";
+  //console.log(updateVal);
+  db.collection("stepsData").update(
+    {},
+    {
+      $set:
+      
+        updateVal
+        //"progress.0.feelingData": req.body.feelData
+    }
+  )
 
 });
 

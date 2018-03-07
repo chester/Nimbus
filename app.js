@@ -16,7 +16,7 @@ var index = require('./routes/index');
 // Example route  
 // var user = require('./routes/user');
 var reflect = require('./routes/reflect');
-var progress = require('./routes/progress');  
+var progress = require('./routes/progress'); 
 var affirmations = require('./routes/affirmations');
 var checkin = require('./routes/checkin');
 var selectReflect = require('./routes/selectReflect');

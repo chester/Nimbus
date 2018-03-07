@@ -27,6 +27,7 @@ function nextPage() {
     console.log(window.performance.now());
     if (window.performance) {
         var timeSincePageLoad = Math.round(performance.now());
+        timeSincePageLoad = timeSincePageLoad / 1000;
         console.log("Time since page load: " + timeSincePageLoad);
        // ga('create', 'UA-114936723-1', 'auto');
        // ga('send', 'timing', 'Page Time', 'time', timeSincePageLoad);

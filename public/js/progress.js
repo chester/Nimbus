@@ -21,3 +21,8 @@ function initializePage() {
    // appendText = template(data);
    // $('#data').html(appendText);
 }
+
+$('#affirm').click(function() {
+   gtag('event', 'click', {
+  'event_category': 'affirmation'});
+});

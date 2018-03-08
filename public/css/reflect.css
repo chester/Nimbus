@@ -56,7 +56,7 @@
     left: 16%;
     z-index: 1000;
     text-align: center;
-    margin-top:20%;
+    margin-top:-8%;
     /*border: salmon solid 1px;*/
     width: 70%;
     font-size: 40px;
@@ -67,8 +67,7 @@
 }
 
 #uList li {
-    padding: 2%;
-    margin-top:-35%;
+    margin-top:2%;
 }
 
 ul li:hover {

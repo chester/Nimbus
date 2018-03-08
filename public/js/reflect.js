@@ -63,7 +63,7 @@ function addList() {
 
     // Now add X button
     var span = document.createElement("SPAN");
-    var icon = document.createTextNode("\u00D7");
+    var icon = document.createTextNode("\u200B");
     span.className = "closeButton";
     span.appendChild(icon);
     li.appendChild(span);

@@ -10,16 +10,17 @@ ul {
 
 #title {
     text-align: center;
-    font-family:verdana;
     color: #FFFFFF;
-    margin-bottom:10%;
-    font-size: 45px;
+    margin-bottom:20%;
+    font-family:verdana;
+    font-size: 55px;
+    margin-top:15%;
 }
 
-#continueDiv { 
-float:right;  
-margin-right:10%;
-margin-top: 55%;
+#continueDiv {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 85%;
 }
 
 /*#continueDiv button {
@@ -36,9 +37,10 @@ margin-top: 55%;
 }
 
 .backDiv {
+    position: absolute;
     float:left;
     margin-left:4%;
-    margin-top: 55%;
+    margin-top: 40%;
 }
 /*#back {
     font-size: 45px;
@@ -73,7 +75,7 @@ margin-top: 55%;
 
 #list {
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 16%;
     z-index: 1000;
     text-align: center;
@@ -82,15 +84,13 @@ margin-top: 55%;
     font-size: 40px;
     font-family:verdana;
     margin-top:5%;
-
-
 }
 
 #uList li {
     margin-top: 1%;
     padding: 2%;
-    background: white;
-    color:#3EBDCF;
+    background: none;
+    color:#FFFFFF;
 }
 
 
@@ -101,9 +101,10 @@ margin-top: 55%;
 
 
 .statusDiv {
-    margin-top: 57%;
-    margin-left: 42%;
+    position: absolute;
+    margin-top:43%;
+    margin-left: 40%;
 }
 #status {
-    width: 35%;
+    width: 160%;
 }

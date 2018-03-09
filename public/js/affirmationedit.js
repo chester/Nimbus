@@ -27,24 +27,7 @@ function initializePage() {
             div.remove();
         }
     }
-    if( parsedItems.length == 0 ) {
-        var li = document.createElement("li");
-        var newItemVal = "I believe in you";
-        var textObj = document.createTextNode(newItemVal);
-        li.appendChild(textObj);
-        document.getElementById("UList").appendChild(li);
-
-        // add x button
-        var span = document.createElement("SPAN");
-        var icon = document.createTextNode("\u00D7");
-        span.className = "closeButton";
-        span.appendChild(icon);
-        li.appendChild(span);
-        span.onclick = function() {
-            var div = this.parentElement;
-            div.remove();
-        }
-    }
+    
 }
 
 function nextPage() {

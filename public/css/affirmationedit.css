@@ -1,63 +1,92 @@
-#myInput {
-	width: 60%;
-	border: 1px solid #3EBDCF;
-	box-sizing: border-box;
+
+#title {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:verdana;
+    font-size: 20px;
+    margin-top:15%;
 }
+
+#subtitle {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:verdana;
+    font-size: 17px;
+    margin-top: -3%;
+}
+
 
 #uList li {
     padding: 2%;
-    color:white;
-    font-size: 20px;
+    color:black;
     font-family:verdana;
+    position: relative;
+    background-color: #F2F9FF;
+    border-radius: 8px;
+    margin-top:1%;
+    margin-left: -12%;
 }
 
 .closeButton {
     position:absolute;
-    right: 10%;
-    background-color: #f44336;
+    width:10%;
+    right:0;
     z-index: 1000;
-
+    background-image: url("https://i.imgur.com/JPQYYMS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
-
-.addButton {
-    font-size: 30px;
-    background-color: #FFFFFF;
-    font-family:verdana;
-    text-align: center;
-    border-radius:15%;
-    color: #24DE9E;
-    margin-left: 5%;
-}
-
-#myInput {
-    width: 80%;
-    padding: 12px 20px;
-    display: inline-block;
-}
 
 .doneButton {
-    float:left;
-    margin-left:58%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 #done {
-    margin-top: 50%;
-    font-size: 15px;
+    font-size: 20px;
     background-color:#24DE9E;
     color:white;
-    width:135%;
     height:5%;
     border-radius:8px;
     border:white;
+    width: 200%;
+}
+
+#myInput {
+    width: 90%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius:20px;
+    background-color: #6F787F;
+    margin-top: 10%;
 }
 
 
-#title {
-    text-align: center;
+
+.addButton {
+    width: 10%;
+    float: left;
+    background-color: #FFFFFF;
+    height: 5%;
     font-family:verdana;
-    color:#FFFFFF;
+    text-align: center;
+    border-radius:75%;
+    color: #24DE9E;
+    margin-left: 91%;
+    margin-top: -11%;
+    font-size: 30px;
 }
 
 body {
     background-color: #323E49;
+}
+input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+input {
+    color:white;
+    font-size: 15px;
 }

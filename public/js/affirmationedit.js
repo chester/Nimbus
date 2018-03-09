@@ -50,7 +50,7 @@ var listedItems = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < listedItems.length; i++) {
     var span = document.createElement("SPAN");
-    var icon = document.createTextNode("\u00D7");
+    var icon = document.createTextNode("\u200B");
     span.className = "closeButton";
     span.appendChild(icon);
     listedItems[i].appendChild(span);
@@ -84,7 +84,7 @@ function addList() {
 
     // Now add X button
     var span = document.createElement("SPAN");
-    var icon = document.createTextNode("\u00D7");
+    var icon = document.createTextNode("\u200B");
     span.className = "closeButton";
     span.appendChild(icon);
     li.appendChild(span);

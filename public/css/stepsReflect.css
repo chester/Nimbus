@@ -5,6 +5,7 @@
     font-family:verdana;
     font-size: 20px;
     margin-top:15%;
+    margin-bottom: 10%;
 }
 
 #subtitle {
@@ -41,7 +42,7 @@
 
 .progressButton {
     position: absolute;
-    margin-top:100%;
+    margin-top:15%;
     margin-left: 10%;
 }
 #progress {

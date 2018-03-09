@@ -5,7 +5,7 @@ $(document).ready(function() {
 })
 
 function initializePage() {
-	document.getElementById("affirmations").innerHTML = "I believe in you";
+	document.getElementById("affirmations").innerHTML = "";
 }
 
 	//console.log(affirmations['0']);
@@ -22,7 +22,7 @@ function initializePage() {
 		var randomString = affirmations[randomNumber];
 			//console.log(randomString);
 		if( randomString == undefined) {
-			randomString = "I believe in you";
+			randomString = "You don't have any affirmations, add one to practice positive self-talk";
 		}
 		document.getElementById("affirmations").innerHTML = randomString;
 	}

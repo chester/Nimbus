@@ -1,46 +1,21 @@
 
-h1 {
-    text-align: center;
-    font-family:verdana;
-    color:#FFFFFF;
-}
-h3 {
-    text-align: center;
-    font-family:verdana;
-    color:white;    
-
-}
 
 h4{
-    margin-left: 25%;
-    margin-top:20%;
-    font-size: 40px;
+    position: absolute;
+    margin-top:40%;
+    font-size: 85px;
     font-family:verdana;
     color:white;
-}
-
-#subtitle {
-    font-size:40px;
-}
-
-#backgroundimage{
-    margin-top:20%;
-    max-width:100%;
-    background: url(https://i.imgur.com/oGqUnfb.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-/*#affirmationMessageDiv {
-    max-width:100%;
-    height:100%;
-    border: solid 2px; 
     text-align: center;
-    position: relative;
-    margin-left:40px;
-    background-color: #3EBDCF;
+}
 
-}*/
+body {
+    background-image: url("https://i.imgur.com/gnv79ga.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
 
 #message {
     position: relative;
@@ -57,38 +32,33 @@ h4{
 
 #rollButton {
     position: relative;
-    background-color:#24DE9E;
+    background-color:#F2F9FF;
     border: none;
-    color: white;
+    color: black;
     position: relative;
-    width:300px;
-    height:70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 50px;
     font-weight:bold;
     cursor: pointer;
-    margin-left:30%;
-    margin-top:70%;
-    border-radius:8px;
-
+    border-radius:16px;
+    width:75%;
+    height:4%;
 }
 
 #editButton
 {
-    position:relative;
+    position: absolute;
     width:5px;
     height:5px;
-    margin-top:15%;
+    margin-top:121%;
     margin-left:80%;
 }
 
-#rollDiv {
-    position: relative;
-    /*top: -250px;
-    left:400px;*/
-
+.rollDiv {
+    margin-left:20%;
+    margin-top:150%;
 }
 
 #continueDiv {
@@ -129,16 +99,19 @@ input[type=submit] {
 
 
 #title {
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
     font-family:verdana;
     color:#FFFFFF;
+    margin-top: 10%;
 }
 
-body {
-    background-color: #323E49;
+.backBtn {
+    position: absolute;
+    float:left;
+    margin-left:4%;
+    margin-top:6%;
 }
-
 #backBtn {
     width: 300%;
 }

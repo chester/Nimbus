@@ -1,9 +1,9 @@
-
 #title {
     text-align: center;
-    font-family:verdana;
     color: #FFFFFF;
-    margin-bottom:10%;
+    font-family:verdana;
+    font-size: 55px;
+    margin-top:15%;
 }
 
 #focus {
@@ -14,40 +14,34 @@
 }
 
 #q1, #q2, #q3, #q4 {
-	height: 10%;
+	height: 7%;
 	width: 90%;
-	margin: 8px;
+	margin: 3%;
 	padding: 12px 20px;
     display: inline-block;
-	border: 2px solid #3EBDCF;
-    box-sizing: border-box;
 }
 
-.backButton {
+.backDiv {
+    position: absolute;
     float:left;
-    margin-left:3%;
+    margin-left:4%;
+    margin-top: 40%;
 }
-#back {
-    font-size: 15px;
-    background-color:#3EBDCF;
-    color:white;
-    width:135%;
-    height:5%;
-    border-radius:15%;
-    border:white;
+
+#backBtn {
+    width:300%;
 }
 
 .saveButton {
-    float:left;
-    margin-left:58%;
+    margin-left:80%;
 }
 #save {
-    font-size: 15px;
-    background-color:#3EBDCF;
+    font-size: 50px;
+    background-color:#24DE9E;
     color:white;
-    width:135%;
-    height:5%;
-    border-radius:15%;
+    width:100%;
+    height:4%;
+    border-radius:8px;
     border:white;
 }
 
@@ -56,9 +50,10 @@ body {
 }
 
 .statusDiv {
-    margin-top: 75%;
-    margin-left: 42%;
+    position: absolute;
+    margin-top:43%;
+    margin-left: 40%;
 }
 #status {
-    width: 35%;
+    width: 160%;
 }

@@ -252,3 +252,10 @@ body {
   text-align: center;
   font-size: 11px;
 }
+
+#checkinButton {
+  background-color: #24DE9E;
+  color: black;
+  border-radius: 8px;
+  font-weight: bold;
+}

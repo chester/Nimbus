@@ -1,51 +1,55 @@
 body {
-	background-color:  #323E49;
+    background-image: url("https://i.imgur.com/qAfayms.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
-
 
 .btnDiv {
 	border-radius: 20px;
-	background-color: white;
-	margin-top: 30%;
-	width:50%;
+	background-color: #24DE9E;
+	margin-top: 10%;
+	width:80%;
 	height: 6%;
-	margin-left:25%;
-	margin-bottom:30%;
+	margin-left: 10%;
 }
 
 .title {
 	text-align: center;
-	margin-top: 10%;
-	font-family:Helvetica;
-	color:white;
+	margin-top: 15%;
+	font-family:verdana;
+	color:black;
+	font-size: 30px;
 }
 
 .why {
-	margin-top: 15%;
+	margin-top: 24%;
 	text-align: center;
-	font-family:Helvetica;
-	color:white;
+	font-family:verdana;
+	color:black;
+	font-size: 25px;
 }
 
 #btn {
-	font-family: Helvetica;
-	margin-top:7%;
+	font-family: verdana;
 	font-weight:bold;
-	font-size:20px;
+	font-size:18px;
 	text-align:center;
 	width:100%;
-	color: #323E49;
+	color: white;
+	padding-top: 8px;
 }
 
 #subparagraphs {
 	text-align:center;
-	font-family:Helvetica;
-	color:white;
+	font-family:verdana;
+	color:black;
+	font-size: 15px;
 }
-
-#icon {
-	margin-bottom:-7%;
-	margin-left:30%;
-	margin-top:5%;
+#subparagraphs1 {
+	text-align:center;
+	font-family:verdana;
+	color:black;
+	margin-top: 15%;
 }
 

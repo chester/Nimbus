@@ -67,7 +67,7 @@ ul {
 
 #list {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 16%;
     z-index: 1000;
     text-align: center;
@@ -75,7 +75,7 @@ ul {
     width: 70%;
     font-size: 40px;
     font-family:verdana;
-    margin-top:5%;
+    margin-top:-8%;
 }
 
 #uList li {

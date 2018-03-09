@@ -202,7 +202,7 @@ body {
   color:white;
 }
 
-#affirm, #edit {
+#affirm {
     font-size: 15px;
     background-color:#24DE9E;
     color:white;
@@ -225,7 +225,7 @@ body {
 .affirmBtnB {
   margin-top:5%;
 }
-#editB {
+#editB, #edit {
   font-size: 12px;
     background-color:#FFFFFF;
     color:black;
